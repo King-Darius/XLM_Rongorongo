@@ -1,3 +1,6 @@
+This is intended to adapt the XLM model by Facebook Research to the specific task of translating at least part of the Rongorongo corpus.
+
+
 # XLM
 
 **NEW:** Added [XLM-R](https://arxiv.org/abs/1911.02116) model.
