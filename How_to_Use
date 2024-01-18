@@ -1,1 +1,39 @@
-#to do
+#This is a Draft and may contain errors
+To utilize this repository to research the potential for translating Rongorongo texts
+Firstly, install necessary dependencies such as Python 3, NumPy, PyTorch, fastBPE, 
+Moses, and Apex. This can be done through respective installation commands, usually
+available in the repository's README file. Once dependencies are installed, clone the
+repository to your local environment.
+
+Begin by preparing your data. If working with Rongorongo texts, encode them using
+the provided scripts in the repository, such as encoding.py and corpus.py. These 
+scripts will transform the unique script of Rongorongo into a format that the machine
+learning model can process. Pay close attention to the format and structure of the
+input data as required by these scripts.
+
+Next, focus on training the model. Utilize the train.py script in the repository,
+adjusting parameters like experiment name, data path, languages involved, and model 
+dimensions based on your requirements and available resources. Training a machine 
+learning model requires computational resources, so ensure your setup meets these 
+needs.
+
+With your model trained and Rongorongo texts prepared, the next step involves
+feeding these encoded texts into the model. This process will involve using the model's 
+learned representations from other languages to predict translations or classifications
+of the Rongorongo texts. Since this is an experimental approach, especially with a
+script as unique as Rongorongo, interpretations of the model's output might require
+further linguistic analysis.
+
+For broader linguistic context or comparative studies, explore external resources such
+as the Rapa Nui Corpus, POLLEX-Online, or comprehensive grammatical descriptions
+of the Rapa Nui language. These resources offer insights into Polynesian languages 
+and can be instrumental in understanding the linguistic landscape that Rongorongo
+might be part of.
+
+In summary, the process involves installing dependencies, preparing and encoding 
+data, training the model, and then utilizing the model for translation or classification
+tasks. Throughout this process, external linguistic resources can provide valuable
+contextual information. Remember, this approach is speculative and experimental,
+given the current understanding of Rongorongo.
+
+#Add some detail about the specifics and maybe Zero-Shot Cross-Lingual Classification and XLM-R?
