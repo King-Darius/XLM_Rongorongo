@@ -1,5 +1,6 @@
 This is intended to adapt the XLM-R model by Facebook Research to the specific task of translating at least part of the Rongorongo corpus. [Read more on how it works and why this is useful here. ](https://ai.meta.com/blog/-xlm-r-state-of-the-art-cross-lingual-understanding-through-self-supervision/)
 
+Objective is to repurpose Unsupervised Cross-lingual Representation → Unsupervised machine translation
 
 # XLM
 
